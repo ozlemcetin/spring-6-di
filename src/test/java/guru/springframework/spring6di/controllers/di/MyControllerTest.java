@@ -1,4 +1,4 @@
-package guru.springframework.spring6di.controllers;
+package guru.springframework.spring6di.controllers.di;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

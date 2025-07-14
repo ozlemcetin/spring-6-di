@@ -4,11 +4,11 @@ import guru.springframework.spring6di.services.di.GreetingService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile("ES")
+@Profile("DE")
 @Service("i18NService")
-public class SpanishGreetingServiceImpl implements GreetingService {
+public class GermanGreetingServiceImpl implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hola Mundo! - ES Profile";
+        return "Hallo Welt! - DE Profile";
     }
 }

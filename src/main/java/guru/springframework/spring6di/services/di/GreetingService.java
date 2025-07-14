@@ -1,4 +1,4 @@
-package guru.springframework.spring6di.services;
+package guru.springframework.spring6di.services.di;
 
 public interface GreetingService {
 

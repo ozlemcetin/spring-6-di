@@ -1,6 +1,6 @@
 package guru.springframework.spring6di;
 
-import guru.springframework.spring6di.controllers.MyController;
+import guru.springframework.spring6di.controllers.di.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
